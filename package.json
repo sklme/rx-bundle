@@ -5,10 +5,8 @@
   "description": "基于rxjs打包起来的一个库",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
-  "types": "types/index.d.ts",
   "exports": {
     ".": {
-      "types": "./types/index.d.ts",
       "import": "./dist/bundle.js",
       "require": "./dist/bundle.js"
     }
