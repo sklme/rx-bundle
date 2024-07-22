@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "@iskl/rxjs-bundle",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "基于rxjs打包起来的一个库",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
   "types": "types/index.d.ts",
@@ -18,8 +18,10 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
   "devDependencies": {
-    "rxjs": "^7.8.1",
     "typescript": "^5.5.3",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -27,7 +29,6 @@
     "rollup": "^4.19.0"
   },
   "files": [
-    "dist",
-    "types"
+    "dist"
   ]
 }
