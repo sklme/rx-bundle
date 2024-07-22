@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@iskl/rxjs-bundle",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "基于rxjs打包起来的一个库",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -9,6 +9,10 @@
     ".": {
       "import": "./dist/index.js",
       "default": "./dist/index.js"
+    },
+    "./operators": {
+      "import": "./dist/operators/index.js",
+      "default": "./dist/operators/index.js"
     }
   },
   "scripts": {
