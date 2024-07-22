@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "@iskl/rxjs-bundle",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./dist/bundle.js",
+      "require": "./dist/bundle.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rxjs": "^7.8.1",
+    "typescript": "^5.5.3",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.19.0"
+  },
+  "files": [
+    "dist",
+    "types"
+  ]
+}
