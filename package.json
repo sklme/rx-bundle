@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@iskl/rxjs-bundle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "基于rxjs打包起来的一个库",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
